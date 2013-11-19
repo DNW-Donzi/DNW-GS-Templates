@@ -6,7 +6,7 @@
   <shorten>trackmania</shorten>
   <description>Trackmania2</description>
   <type>gserver</type>
-  <gamebinary>TrackmaniaServer</gamebinary>
+  <gamebinary>TrackmaniaServer.sh</gamebinary>
   <binarydir></binarydir>
   <modfolder></modfolder>
   <fps></fps>

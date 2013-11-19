@@ -6,7 +6,7 @@
   <shorten>shootmania</shorten>
   <description>Shootmania</description>
   <type>gserver</type>
-  <gamebinary>ShootmaniaServer</gamebinary>
+  <gamebinary>ShootmaniaServer.sh</gamebinary>
   <binarydir></binarydir>
   <modfolder></modfolder>
   <fps></fps>
