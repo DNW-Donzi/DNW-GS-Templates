@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image>
+  <steamgame>N</steamgame>
+  <appID></appID>
+  <updates>1</updates>
+  <shorten>trackmania</shorten>
+  <description>Trackmania2</description>
+  <type>gserver</type>
+  <gamebinary>TrackmaniaServer</gamebinary>
+  <binarydir></binarydir>
+  <modfolder></modfolder>
+  <fps></fps>
+  <slots>0</slots>
+  <map>TrackmaniaServer</map>
+  <mapGroup></mapGroup>
+  <cmd>./%binary% /dedicated_cfg=dedicated_cfg.txt /nodaemon /bindip=%ip% /forceip=%ip%</cmd>
+  <modcmds>[Trackmania2 Canyon A = default]&#13;
+/game_settings=MatchSettings/TMCanyonA.txt /title=TMCanyon&#13;
+&#13;
+[Trackmania2 Canyon B]&#13;
+/game_settings=MatchSettings/TMCanyonB.txt /title=TMCanyon&#13;
+&#13;
+[Trackmania2 Canyon C]&#13;
+/game_settings=MatchSettings/TMCanyonC.txt /title=TMCanyon&#13;
+&#13;
+[Trackmania2 Canyon Custom]&#13;
+/game_settings=MatchSettings/TMCanyonCustom.txt /title=TMCanyon&#13;
+&#13;
+[Trackmania2 Stadium A]&#13;
+/game_settings=MatchSettings/TMStadiumA.txt /title=TMStadium&#13;
+&#13;
+[Trackmania2 Stadium B]&#13;
+/game_settings=MatchSettings/TMStadiumB.txt /title=TMStadium&#13;
+&#13;
+[Trackmania2 Stadium C]&#13;
+/game_settings=MatchSettings/TMStadiumC.txt /title=TMStadium&#13;
+&#13;
+[Trackmania2 Stadium Custom]&#13;
+/game_settings=MatchSettings/TMStadiumCustom.txt /title=TMStadium&#13;
+&#13;
+[Trackmania2 Valley A]&#13;
+/game_settings=MatchSettings/TMValleyA.txt /title=TMValley&#13;
+&#13;
+[Trackmania2 Valley B]&#13;
+/game_settings=MatchSettings/TMValleyB.txt /title=TMValley&#13;
+&#13;
+[Trackmania2 Valley C]&#13;
+/game_settings=MatchSettings/TMValleyC.txt /title=TMValley&#13;
+&#13;
+[Trackmania2 Valley Custom]&#13;
+/game_settings=MatchSettings/TMValleyCustom.txt /title=TMValley&#13;
+&#13;
+[Trackmania2 Platform A]&#13;
+/game_settings=MatchSettings/CanyonPlatformA.txt /title=Platform@nadeolive&#13;
+&#13;
+[Trackmania2 Platform B]&#13;
+/game_settings=MatchSettings/CanyonPlatformB.txt /title=Platform@nadeolive&#13;
+&#13;
+[Trackmania2 Platform C]&#13;
+/game_settings=MatchSettings/CanyonPlatformC.txt /title=Platform@nadeolive&#13;
+&#13;
+[Trackmania2 Platform Custom]&#13;
+/game_settings=MatchSettings/CanyonPlatformCustom.txt /title=Platform@nadeolive</modcmds>
+  <tic></tic>
+  <qstat>tm</qstat>
+  <gamemod>N</gamemod>
+  <gamemod2></gamemod2>
+  <configs>UserData/Config/dedicated_cfg.txt&#13;
+UserData/Maps/MatchSettings/TMCanyonCustom.txt&#13;
+UserData/Maps/MatchSettings/TMStadiumCustom.txt&#13;
+UserData/Maps/MatchSettings/TMValleyCustom.txt&#13;
+UserData/Maps/MatchSettings/CanyonPlatformCustom.txt</configs>
+  <configedit>[UserData/Config/dedicated_cfg.txt] xml&#13;
+&lt;max_players&gt;%slots%&lt;/max_players&gt;&#13;
+&lt;max_spectators&gt;10&lt;/max_spectators&gt;&#13;
+&lt;enable_p2p_upload&gt;false&lt;/enable_p2p_upload&gt;&#13;
+&lt;connection_uploadrate&gt;2048&lt;/connection_uploadrate&gt;&#13;
+&lt;connection_downloadrate&gt;4096&lt;/connection_downloadrate&gt;&#13;
+&lt;force_ip_address&gt;%ip%&lt;/force_ip_address&gt;&#13;
+&lt;server_port&gt;%port%&lt;/server_port&gt;&#13;
+&lt;server_p2p_port&gt;%port2%&lt;/server_p2p_port&gt;&#13;
+&lt;bind_ip_address&gt;%ip%&lt;/bind_ip_address&gt;&#13;
+&lt;xmlrpc_port&gt;%port3%&lt;/xmlrpc_port&gt;</configedit>
+  <iptables></iptables>
+  <protectedSaveCFGs></protectedSaveCFGs>
+  <qstatpassparam></qstatpassparam>
+  <portStep>5</portStep>
+  <portMax>3</portMax>
+  <portOne>2350</portOne>
+  <portTwo>2351</portTwo>
+  <portThree>2352</portThree>
+  <portFour></portFour>
+  <portFive></portFive>
+  <protected>N</protected>
+  <downloadPath></downloadPath>
+</image>

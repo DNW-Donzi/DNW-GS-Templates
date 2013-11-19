@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon>
+  <active>Y</active>
+  <paddon>N</paddon>
+  <shorten></shorten>
+  <addon>instajump</addon>
+  <type>tool</type>
+  <folder></folder>
+  <menudescription>InstaJump</menudescription>
+  <configs></configs>
+  <cmd>+seta g_instajump "1"</cmd>
+  <rmcmd></rmcmd>
+</addon>

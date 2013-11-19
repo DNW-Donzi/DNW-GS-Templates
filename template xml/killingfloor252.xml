@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image>
+  <steamgame>N</steamgame>
+  <appID></appID>
+  <updates>1</updates>
+  <shorten>killingfloor252</shorten>
+  <description>KillingFloor 2.52</description>
+  <type>gserver</type>
+  <gamebinary>ucc-bin</gamebinary>
+  <binarydir>System</binarydir>
+  <modfolder>KFMod20</modfolder>
+  <fps></fps>
+  <slots>0</slots>
+  <map>KF-Offices.ut2</map>
+  <mapGroup></mapGroup>
+  <cmd>./%binary% server KF-Offices?game=KFMod.KFGameType?GameStats=True?MaxPlayers=%slots% -mod="KFMod20" -log=../Logs/KF_Server.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir</cmd>
+  <modcmds></modcmds>
+  <tic></tic>
+  <qstat>ut2004s</qstat>
+  <gamemod>N</gamemod>
+  <gamemod2></gamemod2>
+  <configs>KFMod20/System/KFMod20.ini</configs>
+  <configedit></configedit>
+  <iptables></iptables>
+  <protectedSaveCFGs></protectedSaveCFGs>
+  <qstatpassparam>GamePassword:True</qstatpassparam>
+  <portStep>10</portStep>
+  <portMax>3</portMax>
+  <portOne>7777</portOne>
+  <portTwo>7787</portTwo>
+  <portThree>7778</portThree>
+  <portFour></portFour>
+  <portFive></portFive>
+  <protected>N</protected>
+  <downloadPath></downloadPath>
+</image>

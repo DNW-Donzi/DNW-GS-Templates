@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image>
+  <steamgame>S</steamgame>
+  <appID>222860</appID>
+  <updates>1</updates>
+  <shorten>left4dead2</shorten>
+  <description>Left 4 Dead 2</description>
+  <type>game</type>
+  <gamebinary>srcds_run</gamebinary>
+  <binarydir></binarydir>
+  <modfolder>left4dead2</modfolder>
+  <fps></fps>
+  <slots>0</slots>
+  <map>c2m1_highway</map>
+  <mapGroup></mapGroup>
+  <cmd>./%binary% -game left4dead2 -norestart -nocrashdialog -ip %ip% -port %port% +map %map% +maxplayers %slots%</cmd>
+  <modcmds></modcmds>
+  <tic></tic>
+  <qstat>a2s</qstat>
+  <gamemod>N</gamemod>
+  <gamemod2>css</gamemod2>
+  <configs>cfg/server.cfg&#13;
+maplist.txt&#13;
+mapcycle.txt&#13;
+motd.txt</configs>
+  <configedit>[cfg/server.cfg] cfg&#13;
+log "on"&#13;
+hostfile "host.txt"&#13;
+sv_region "3"&#13;
+sv_log_onefile "0"&#13;
+sv_logbans "1"&#13;
+sv_logecho "1"&#13;
+sv_logfile "1"&#13;
+sv_logflush "1"&#13;
+sv_logsdir "logs"&#13;
+sv_minrate "20000"&#13;
+sv_maxrate "30000"&#13;
+sv_mincmdrate "10"&#13;
+sv_maxcmdrate "33"&#13;
+sv_clearhinthistory "0"&#13;
+sv_consistency "1"&#13;
+&#13;
+[host.txt]&#13;
+http://www.despe.de/l4d.htm</configedit>
+  <iptables></iptables>
+  <protectedSaveCFGs></protectedSaveCFGs>
+  <qstatpassparam>password:1</qstatpassparam>
+  <portStep>1</portStep>
+  <portMax>1</portMax>
+  <portOne>27015</portOne>
+  <portTwo></portTwo>
+  <portThree></portThree>
+  <portFour></portFour>
+  <portFive></portFive>
+  <protected>Y</protected>
+  <downloadPath></downloadPath>
+</image>

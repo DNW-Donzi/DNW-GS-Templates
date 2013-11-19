@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image>
+  <steamgame>S</steamgame>
+  <appID>232250</appID>
+  <updates>1</updates>
+  <shorten>tf</shorten>
+  <description>Team Fortress 2</description>
+  <type>game</type>
+  <gamebinary>srcds_run</gamebinary>
+  <binarydir></binarydir>
+  <modfolder>tf</modfolder>
+  <fps>100</fps>
+  <slots>12</slots>
+  <map>cp_5gorge</map>
+  <mapGroup></mapGroup>
+  <cmd>./%binary% -game tf -ip %ip% -port %port% +maxplayers %slots% +map %map% +fps_max %fps% +tv_port %tvport%</cmd>
+  <modcmds></modcmds>
+  <tic></tic>
+  <qstat>a2s</qstat>
+  <gamemod>N</gamemod>
+  <gamemod2>css</gamemod2>
+  <configs>cfg/server.cfg both&#13;
+cfg/maplist.txt full&#13;
+cfg/mapcycle.txt full&#13;
+cfg/motd.txt full</configs>
+  <configedit></configedit>
+  <iptables></iptables>
+  <protectedSaveCFGs></protectedSaveCFGs>
+  <qstatpassparam>password:1</qstatpassparam>
+  <portStep>100</portStep>
+  <portMax>4</portMax>
+  <portOne>27015</portOne>
+  <portTwo>27016</portTwo>
+  <portThree>27017</portThree>
+  <portFour>27018</portFour>
+  <portFive>27019</portFive>
+  <protected>Y</protected>
+  <downloadPath></downloadPath>
+</image>

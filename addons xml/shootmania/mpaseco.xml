@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon>
+  <active>Y</active>
+  <paddon>N</paddon>
+  <shorten></shorten>
+  <addon>mpaseco</addon>
+  <type>tool</type>
+  <folder></folder>
+  <menudescription>Servercontroller MPAseco</menudescription>
+  <configs>servercontroller/configs/config.xml&#13;
+servercontroller/configs/localdatabase.xml&#13;
+servercontroller/configs/plugins.xml</configs>
+  <cmd>/mpaseco</cmd>
+  <rmcmd></rmcmd>
+</addon>

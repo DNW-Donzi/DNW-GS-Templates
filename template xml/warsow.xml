@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image>
+  <steamgame>N</steamgame>
+  <appID></appID>
+  <updates>1</updates>
+  <shorten>warsow</shorten>
+  <description>WarSow</description>
+  <type>gserver</type>
+  <gamebinary>wsw_server.x86_64</gamebinary>
+  <binarydir></binarydir>
+  <modfolder>basewsw</modfolder>
+  <fps></fps>
+  <slots>0</slots>
+  <map></map>
+  <mapGroup></mapGroup>
+  <cmd>./%binary% +exec dedicated_server.cfg +set sv_maxclients %slots% +set sv_ip %ip% +set sv_port %port% +set sv_port6 %port%</cmd>
+  <modcmds>[Deathmatch]&#13;
++set g_gametype "dm"&#13;
+&#13;
+[Team Deathmatch]&#13;
++set g_gametype "tdm"&#13;
+&#13;
+[Team DMCTF]&#13;
++set g_gametype "tdm_ctf"&#13;
+&#13;
+[Capture the Flag]&#13;
++set g_gametype "ctf"&#13;
+&#13;
+[Clan Arena]&#13;
++set g_gametype "ca"&#13;
+&#13;
+[Duel]&#13;
++set g_gametype "duel"&#13;
+&#13;
+[Duel Arena]&#13;
++set g_gametype "da"&#13;
+&#13;
+[DuelQuad]&#13;
++set g_gametype "duel_quad"&#13;
+&#13;
+[FFA = default]&#13;
++set g_gametype "ffa"&#13;
+&#13;
+[Mid Air]&#13;
++set g_gametype "midair"&#13;
+&#13;
+[Race]&#13;
++set g_gametype "race"&#13;
+&#13;
+[All Round]&#13;
++set g_gametype "allaround"</modcmds>
+  <tic></tic>
+  <qstat>warsows</qstat>
+  <gamemod>N</gamemod>
+  <gamemod2></gamemod2>
+  <configs>basewsw/dedicated_server.cfg&#13;
+basewsw/motd.cfg</configs>
+  <configedit>[basewsw/dedicated_autoexec.cfg] cfg&#13;
+sv_ip "%ip%"&#13;
+sv_port "%port%"&#13;
+sv_port6 "%port%"&#13;
+sv_maxclients "%slots%"</configedit>
+  <iptables></iptables>
+  <protectedSaveCFGs></protectedSaveCFGs>
+  <qstatpassparam></qstatpassparam>
+  <portStep>2</portStep>
+  <portMax>1</portMax>
+  <portOne>44400</portOne>
+  <portTwo></portTwo>
+  <portThree></portThree>
+  <portFour></portFour>
+  <portFive></portFive>
+  <protected>N</protected>
+  <downloadPath></downloadPath>
+</image>

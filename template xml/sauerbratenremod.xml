@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image>
+  <steamgame>N</steamgame>
+  <appID></appID>
+  <updates>1</updates>
+  <shorten>sauerbratenremod</shorten>
+  <description>Sauerbraten</description>
+  <type>gserver</type>
+  <gamebinary>remod</gamebinary>
+  <binarydir></binarydir>
+  <modfolder></modfolder>
+  <fps></fps>
+  <slots>0</slots>
+  <map></map>
+  <mapGroup></mapGroup>
+  <cmd>./%binary% -i%ip% -j%port% -c%slots% -fserver-init.cfg</cmd>
+  <modcmds></modcmds>
+  <tic></tic>
+  <qstat>cubes</qstat>
+  <gamemod>N</gamemod>
+  <gamemod2></gamemod2>
+  <configs>server-init.cfg</configs>
+  <configedit>[server-init.cfg] cfg&#13;
+serverip "%ip%"&#13;
+serverport "%port%"&#13;
+maxclients "%slots%"</configedit>
+  <iptables></iptables>
+  <protectedSaveCFGs></protectedSaveCFGs>
+  <qstatpassparam></qstatpassparam>
+  <portStep>5</portStep>
+  <portMax>2</portMax>
+  <portOne>28785</portOne>
+  <portTwo>28786</portTwo>
+  <portThree></portThree>
+  <portFour></portFour>
+  <portFive></portFive>
+  <protected>N</protected>
+  <downloadPath></downloadPath>
+</image>

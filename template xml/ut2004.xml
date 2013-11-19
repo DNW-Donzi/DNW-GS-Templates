@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image>
+  <steamgame>N</steamgame>
+  <appID></appID>
+  <updates>1</updates>
+  <shorten>ut2004</shorten>
+  <description>UT2004</description>
+  <type>gserver</type>
+  <gamebinary>ucc-bin</gamebinary>
+  <binarydir>System</binarydir>
+  <modfolder></modfolder>
+  <fps></fps>
+  <slots>0</slots>
+  <map>DM-Rankin.ut2</map>
+  <mapGroup></mapGroup>
+  <cmd>./%binary% server</cmd>
+  <modcmds>[DM = default]&#13;
+%map%?Game=XGame.xDeathMatch?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[TDM]&#13;
+%map%?Game=XGame.xTeamGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[CTF]&#13;
+%map%?Game=XGame.xCTFGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[iCTF-Clan]&#13;
+%map%?Game=XGame.InstagibCTF?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[iCTF-Public]&#13;
+%map%?Game=XGame.xCTFGame?Mutator=XGame.MutInstaGib?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[TAM]&#13;
+%map%?Game=3spnv3141.TeamArenaMaster?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[AM]&#13;
+%map%?Game=3spnv3141.ArenaMaster=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[Freon]&#13;
+%map%?Game=3SPNv3141.Freon?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[ONS]&#13;
+%map%?Game=Onslaught.ONSOnslaughtGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[LMS]&#13;
+%map%?Game=BonusPack.xLastManStandingGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[DDOM]&#13;
+%map%?Game=XGame.xDoubleDom?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[BR]&#13;
+%map%?Game=XGame.xBombingRun?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[vCTF]&#13;
+%map%?Game=XGame.xVehicleCTFGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[Mutant]&#13;
+%map%?Game=BonusPack.xMutantGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[SkaarjPack.Invasion]&#13;
+%map%?Game=SkaarjPack.Invasion?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[AS]&#13;
+%map%?Game=UT2K4Assault.ASGameInfo?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+&#13;
+[Jailbreak]&#13;
+%map%?Game=Jailbreak.Jailbreak?MaxPlayers=%slots% -ini=UT2004_JB.ini -log=UT2004_JB.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir</modcmds>
+  <tic></tic>
+  <qstat>ut2004s</qstat>
+  <gamemod>N</gamemod>
+  <gamemod2></gamemod2>
+  <configs>System/UT2004.ini&#13;
+System/XAdmin.ini&#13;
+ReadMe_WebAdmin_AdminPassword_ReDirect.txt</configs>
+  <configedit>[System/UT2004.ini] ini&#13;
+ListenPort=%port3%</configedit>
+  <iptables></iptables>
+  <protectedSaveCFGs></protectedSaveCFGs>
+  <qstatpassparam>GamePassword:True</qstatpassparam>
+  <portStep>10</portStep>
+  <portMax>3</portMax>
+  <portOne>7777</portOne>
+  <portTwo>7787</portTwo>
+  <portThree>7778</portThree>
+  <portFour></portFour>
+  <portFive></portFive>
+  <protected>N</protected>
+  <downloadPath></downloadPath>
+</image>

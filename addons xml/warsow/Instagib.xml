@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon>
+  <active>Y</active>
+  <paddon>N</paddon>
+  <shorten></shorten>
+  <addon>Instagib</addon>
+  <type>tool</type>
+  <folder></folder>
+  <menudescription>Instagib</menudescription>
+  <configs></configs>
+  <cmd>+set g_instagib "1"</cmd>
+  <rmcmd></rmcmd>
+</addon>

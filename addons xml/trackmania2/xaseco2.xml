@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon>
+  <active>Y</active>
+  <paddon>N</paddon>
+  <shorten></shorten>
+  <addon>xaseco2</addon>
+  <type>tool</type>
+  <folder></folder>
+  <menudescription>Servercontroller XAseco2</menudescription>
+  <configs>servercontroller/config.xml&#13;
+servercontroller/localdatabase.xml&#13;
+servercontroller/plugins.xml</configs>
+  <cmd>/xaseco</cmd>
+  <rmcmd></rmcmd>
+</addon>

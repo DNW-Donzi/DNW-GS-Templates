@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image>
+  <steamgame>N</steamgame>
+  <appID></appID>
+  <updates>1</updates>
+  <shorten>teeworlds</shorten>
+  <description>Teeworlds</description>
+  <type>gserver</type>
+  <gamebinary>teeworlds_srv</gamebinary>
+  <binarydir></binarydir>
+  <modfolder></modfolder>
+  <fps></fps>
+  <slots>0</slots>
+  <map></map>
+  <mapGroup></mapGroup>
+  <cmd>./%binary%</cmd>
+  <modcmds>[Capture the Flag = default]&#13;
+-f config_ctf.cfg&#13;
+&#13;
+[Deathmatch]&#13;
+-f config_dm.cfg&#13;
+&#13;
+[Team Deathmatch]&#13;
+-f config_tdm.cfg</modcmds>
+  <tic></tic>
+  <qstat>teeworlds</qstat>
+  <gamemod>N</gamemod>
+  <gamemod2></gamemod2>
+  <configs>config_ctf.cfg&#13;
+config_dm.cfg&#13;
+config_tdm.cfg</configs>
+  <configedit>[autoexec.cfg] cfg&#13;
+sv_max_clients %slots%&#13;
+bindaddr %ip%&#13;
+sv_port %port%</configedit>
+  <iptables></iptables>
+  <protectedSaveCFGs></protectedSaveCFGs>
+  <qstatpassparam></qstatpassparam>
+  <portStep>1</portStep>
+  <portMax>1</portMax>
+  <portOne>8303</portOne>
+  <portTwo></portTwo>
+  <portThree></portThree>
+  <portFour></portFour>
+  <portFive></portFive>
+  <protected>Y</protected>
+  <downloadPath></downloadPath>
+</image>
