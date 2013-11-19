@@ -17,13 +17,7 @@
 #########################################################################
 
 
-GAMESETTINGS=$1
-DEDICFG=$2
-TITLE=$3
-DAEMON=$4
-SMART=$5
-
-# Start ManiaPlanet-Server for TrackMania or ShootMania and start a ServerController ( TM= xaseco or SM= smart)
+# Start ManiaPlanet-Server for TrackMania or ShootMania and start a ServerController
 
 
 if [ "$5" = "/xaseco" ]
