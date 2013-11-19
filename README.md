@@ -1,1 +1,1 @@
-zusätzliche GameTemplates fuer Easy-Wi
+zusaetzliche GameTemplates fuer Easy-Wi
