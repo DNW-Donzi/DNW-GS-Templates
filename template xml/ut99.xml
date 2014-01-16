@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <image>
   <steamgame>N</steamgame>
-  <appID></appID>
+  <appID/>
   <updates>1</updates>
   <shorten>ut99</shorten>
   <description>Unreal Tournament</description>
-  <type>gserver</type>
+  <type/>
   <gamebinary>utserver.sh</gamebinary>
   <binarydir>System</binarydir>
-  <modfolder></modfolder>
-  <fps></fps>
-  <slots>0</slots>
+  <modfolder/>
+  <fps/>
+  <slots>12</slots>
   <map>DM-Codex.unr</map>
-  <mapGroup></mapGroup>
+  <mapGroup/>
   <cmd>./%binary% server</cmd>
   <modcmds>[DM = default]&#13;
-%map%?Game=Botpack.DeathMatchPlus?MaxPlayers=%slots% -ini=UnrealTournament.ini -log=server.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
+%map%?Game=Botpack.DeathMatchPlus?MaxPlayers=%slots% -ini=UnrealTournament.ini -log=server.log -multihome=%ip% -port=%port2% -queryport=%port% -WebServerListenPort=%port3% -nohomedir&#13;
 &#13;
 [TDM]&#13;
 %map%?Game=Botpack.TeamGamePlus?MaxPlayers=%slots% -ini=UnrealTournament.ini -log=server.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
@@ -43,22 +43,25 @@
 &#13;
 [RA]&#13;
 %map%?Game=RocketArena.ArenaGame?MaxPlayers=%slots% -ini=UnrealTournament.ini -log=server.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir</modcmds>
-  <tic></tic>
-  <qstat>uns</qstat>
+  <tic/>
+  <gameq>ut</gameq>
   <gamemod>N</gamemod>
-  <gamemod2></gamemod2>
+  <gamemod2/>
   <configs>ReadMe_WebAdmin_AdminPassword_ReDirect.txt</configs>
-  <configedit></configedit>
-  <iptables></iptables>
-  <protectedSaveCFGs></protectedSaveCFGs>
-  <qstatpassparam>password:True</qstatpassparam>
+  <configedit/>
+  <iptables/>
+  <protectedSaveCFGs/>
   <portStep>10</portStep>
   <portMax>3</portMax>
   <portOne>7777</portOne>
   <portTwo>7778</portTwo>
   <portThree>7779</portThree>
-  <portFour></portFour>
-  <portFive></portFive>
+  <portFour/>
+  <portFive/>
   <protected>N</protected>
-  <downloadPath></downloadPath>
+  <ramLimited>N</ramLimited>
+  <ftpAccess>Y</ftpAccess>
+  <workShop>N</workShop>
+  <os>L</os>
+  <downloadPath/>
 </image>

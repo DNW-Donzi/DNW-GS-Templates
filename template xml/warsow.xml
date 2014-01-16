@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <image>
   <steamgame>N</steamgame>
-  <appID></appID>
+  <appID/>
   <updates>1</updates>
   <shorten>warsow</shorten>
   <description>WarSow</description>
-  <type>gserver</type>
+  <type/>
   <gamebinary>wsw_server.x86_64</gamebinary>
-  <binarydir></binarydir>
+  <binarydir/>
   <modfolder>basewsw</modfolder>
-  <fps></fps>
-  <slots>0</slots>
-  <map></map>
-  <mapGroup></mapGroup>
+  <fps/>
+  <slots>12</slots>
+  <map/>
+  <mapGroup/>
   <cmd>./%binary% +exec dedicated_server.cfg +set sv_maxclients %slots% +set sv_ip %ip% +set sv_port %port% +set sv_port6 %port%</cmd>
   <modcmds>[Deathmatch]&#13;
 +set g_gametype "dm"&#13;
@@ -49,10 +49,10 @@
 &#13;
 [All Round]&#13;
 +set g_gametype "allaround"</modcmds>
-  <tic></tic>
-  <qstat>warsows</qstat>
+  <tic/>
+  <gameq>warsow</gameq>
   <gamemod>N</gamemod>
-  <gamemod2></gamemod2>
+  <gamemod2/>
   <configs>basewsw/dedicated_server.cfg&#13;
 basewsw/motd.cfg</configs>
   <configedit>[basewsw/dedicated_autoexec.cfg] cfg&#13;
@@ -60,16 +60,19 @@ sv_ip "%ip%"&#13;
 sv_port "%port%"&#13;
 sv_port6 "%port%"&#13;
 sv_maxclients "%slots%"</configedit>
-  <iptables></iptables>
-  <protectedSaveCFGs></protectedSaveCFGs>
-  <qstatpassparam></qstatpassparam>
-  <portStep>2</portStep>
+  <iptables/>
+  <protectedSaveCFGs/>
+  <portStep>10</portStep>
   <portMax>1</portMax>
   <portOne>44400</portOne>
-  <portTwo></portTwo>
-  <portThree></portThree>
-  <portFour></portFour>
-  <portFive></portFive>
+  <portTwo/>
+  <portThree/>
+  <portFour/>
+  <portFive/>
   <protected>N</protected>
-  <downloadPath></downloadPath>
+  <ramLimited>N</ramLimited>
+  <ftpAccess>Y</ftpAccess>
+  <workShop>N</workShop>
+  <os>L</os>
+  <downloadPath/>
 </image>

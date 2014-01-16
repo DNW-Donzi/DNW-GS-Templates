@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <image>
   <steamgame>N</steamgame>
-  <appID></appID>
+  <appID/>
   <updates>1</updates>
   <shorten>ut2004</shorten>
   <description>UT2004</description>
-  <type>gserver</type>
+  <type/>
   <gamebinary>utserver.sh</gamebinary>
   <binarydir>System</binarydir>
-  <modfolder></modfolder>
-  <fps></fps>
-  <slots>0</slots>
+  <modfolder/>
+  <fps/>
+  <slots>12</slots>
   <map>DM-Rankin.ut2</map>
-  <mapGroup></mapGroup>
+  <mapGroup/>
   <cmd>./%binary% server</cmd>
   <modcmds>[DM = default]&#13;
 %map%?Game=XGame.xDeathMatch?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
@@ -63,26 +63,29 @@
 %map%?Game=UT2K4Assault.ASGameInfo?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
 &#13;
 [Jailbreak]&#13;
-%map%?Game=Jailbreak.Jailbreak?MaxPlayers=%slots% -ini=UT2004_JB.ini -log=UT2004_JB.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir</modcmds>
-  <tic></tic>
-  <qstat>ut2004s</qstat>
+%map%?Game=Jailbreak.Jailbreak?MaxPlayers=%slots% -ini=UT2004_JB.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir</modcmds>
+  <tic/>
+  <gameq>ut2004</gameq>
   <gamemod>N</gamemod>
-  <gamemod2></gamemod2>
+  <gamemod2/>
   <configs>System/UT2004.ini&#13;
 System/XAdmin.ini&#13;
 ReadMe_WebAdmin_AdminPassword_ReDirect.txt</configs>
   <configedit>[System/UT2004.ini] ini&#13;
 ListenPort=%port3%</configedit>
-  <iptables></iptables>
-  <protectedSaveCFGs></protectedSaveCFGs>
-  <qstatpassparam>GamePassword:True</qstatpassparam>
+  <iptables/>
+  <protectedSaveCFGs/>
   <portStep>10</portStep>
   <portMax>3</portMax>
   <portOne>7777</portOne>
   <portTwo>7787</portTwo>
-  <portThree>7778</portThree>
-  <portFour></portFour>
-  <portFive></portFive>
+  <portThree>7779</portThree>
+  <portFour/>
+  <portFive/>
   <protected>N</protected>
-  <downloadPath></downloadPath>
+  <ramLimited>N</ramLimited>
+  <ftpAccess>Y</ftpAccess>
+  <workShop>N</workShop>
+  <os>L</os>
+  <downloadPath/>
 </image>

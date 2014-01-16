@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <image>
   <steamgame>N</steamgame>
-  <appID></appID>
+  <appID/>
   <updates>1</updates>
   <shorten>trackmania</shorten>
   <description>Trackmania2</description>
-  <type>gserver</type>
+  <type/>
   <gamebinary>TrackmaniaServer.sh</gamebinary>
-  <binarydir></binarydir>
-  <modfolder></modfolder>
-  <fps></fps>
-  <slots>0</slots>
+  <binarydir/>
+  <modfolder/>
+  <fps/>
+  <slots>12</slots>
   <map>TrackmaniaServer</map>
-  <mapGroup></mapGroup>
+  <mapGroup/>
   <cmd>./%binary% /dedicated_cfg=dedicated_cfg.txt /nodaemon /bindip=%ip% /forceip=%ip%</cmd>
   <modcmds>[Trackmania2 Canyon A = default]&#13;
 /game_settings=MatchSettings/TMCanyonA.txt /title=TMCanyon&#13;
@@ -61,10 +61,10 @@
 &#13;
 [Trackmania2 Platform Custom]&#13;
 /game_settings=MatchSettings/CanyonPlatformCustom.txt /title=Platform@nadeolive</modcmds>
-  <tic></tic>
-  <qstat>tm</qstat>
+  <tic/>
+  <gameq/>
   <gamemod>N</gamemod>
-  <gamemod2></gamemod2>
+  <gamemod2/>
   <configs>UserData/Config/dedicated_cfg.txt&#13;
 UserData/Maps/MatchSettings/TMCanyonCustom.txt&#13;
 UserData/Maps/MatchSettings/TMStadiumCustom.txt&#13;
@@ -81,16 +81,19 @@ UserData/Maps/MatchSettings/CanyonPlatformCustom.txt</configs>
 &lt;server_p2p_port&gt;%port2%&lt;/server_p2p_port&gt;&#13;
 &lt;bind_ip_address&gt;%ip%&lt;/bind_ip_address&gt;&#13;
 &lt;xmlrpc_port&gt;%port3%&lt;/xmlrpc_port&gt;</configedit>
-  <iptables></iptables>
-  <protectedSaveCFGs></protectedSaveCFGs>
-  <qstatpassparam></qstatpassparam>
-  <portStep>5</portStep>
+  <iptables/>
+  <protectedSaveCFGs/>
+  <portStep>10</portStep>
   <portMax>3</portMax>
   <portOne>2350</portOne>
   <portTwo>2351</portTwo>
   <portThree>2352</portThree>
-  <portFour></portFour>
-  <portFive></portFive>
+  <portFour/>
+  <portFive/>
   <protected>N</protected>
-  <downloadPath></downloadPath>
+  <ramLimited>N</ramLimited>
+  <ftpAccess>Y</ftpAccess>
+  <workShop>N</workShop>
+  <os>L</os>
+  <downloadPath/>
 </image>
