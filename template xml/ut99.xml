@@ -6,7 +6,7 @@
   <shorten>ut99</shorten>
   <description>Unreal Tournament</description>
   <type>gserver</type>
-  <gamebinary>ucc-bin</gamebinary>
+  <gamebinary>utserver.sh</gamebinary>
   <binarydir>System</binarydir>
   <modfolder></modfolder>
   <fps></fps>

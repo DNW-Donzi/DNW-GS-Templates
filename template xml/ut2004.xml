@@ -6,7 +6,7 @@
   <shorten>ut2004</shorten>
   <description>UT2004</description>
   <type>gserver</type>
-  <gamebinary>ucc-bin</gamebinary>
+  <gamebinary>utserver.sh</gamebinary>
   <binarydir>System</binarydir>
   <modfolder></modfolder>
   <fps></fps>
