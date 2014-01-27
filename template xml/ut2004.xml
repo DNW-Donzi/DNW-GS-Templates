@@ -76,11 +76,11 @@ ListenPort=%port4%</configedit>
   <iptables/>
   <protectedSaveCFGs/>
   <portStep>10</portStep>
-  <portMax>3</portMax>
+  <portMax>4</portMax>
   <portOne>7777</portOne>
   <portTwo>7778</portTwo>
   <portThree>7787</portThree>
-  <portFour>7779</portThree>
+  <portFour>7779</portFour>
   <portFive/>
   <protected>N</protected>
   <ramLimited>N</ramLimited>
