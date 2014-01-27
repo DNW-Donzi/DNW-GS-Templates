@@ -30,4 +30,4 @@ find -type f -name 'crash_*.log' -mtime +${DAYS} -print | xargs /bin/rm -f;
 ./ucc-bin $@
 
 #	Copy the Server.log to the Crash-Date.Log for better Fail-Reports and continuous restarts
-cp UT2004.log crash_$STAMP.log
+cp KF_Server.log crash_$STAMP.log
