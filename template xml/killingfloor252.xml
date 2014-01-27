@@ -13,7 +13,7 @@
   <slots>12</slots>
   <map>KF-Offices.ut2</map>
   <mapGroup/>
-  <cmd>./%binary% server KF-Offices?game=KFMod.KFGameType?GameStats=True?MaxPlayers=%slots% -mod="KFMod20" -log=../Logs/UT2004.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir</cmd>
+  <cmd>./%binary% server KF-Offices?game=KFMod.KFGameType?GameStats=True?MaxPlayers=%slots% -mod="KFMod20" -log=../Logs/KF_Server.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir</cmd>
   <modcmds/>
   <tic/>
   <gameq>killingfloor</gameq>
@@ -26,8 +26,8 @@
   <portStep>10</portStep>
   <portMax>3</portMax>
   <portOne>7777</portOne>
-  <portTwo>7787</portTwo>
-  <portThree>7778</portThree>
+  <portTwo>7778</portTwo>
+  <portThree>7787</portThree>
   <portFour/>
   <portFive/>
   <protected>N</protected>
