@@ -15,7 +15,7 @@
   <mapGroup/>
   <cmd>./%binary% server</cmd>
   <modcmds>[DM = default]&#13;
-%map%?Game=Botpack.DeathMatchPlus?MaxPlayers=%slots% -ini=UnrealTournament.ini -log=server.log -multihome=%ip% -port=%port2% -queryport=%port% -WebServerListenPort=%port3% -nohomedir&#13;
+%map%?Game=Botpack.DeathMatchPlus?MaxPlayers=%slots% -ini=UnrealTournament.ini -log=server.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
 &#13;
 [TDM]&#13;
 %map%?Game=Botpack.TeamGamePlus?MaxPlayers=%slots% -ini=UnrealTournament.ini -log=server.log -multihome=%ip% -port=%port% -queryport=%port2% -WebServerListenPort=%port3% -nohomedir&#13;
