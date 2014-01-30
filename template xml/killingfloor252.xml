@@ -10,13 +10,13 @@
   <binarydir>System</binarydir>
   <modfolder>KFMod20</modfolder>
   <fps/>
-  <slots>12</slots>
+  <slots>6</slots>
   <map>KF-Offices.ut2</map>
   <mapGroup/>
-  <cmd>./%binary% server KF-Offices?game=KFMod.KFGameType?GameStats=True?MaxPlayers=%slots% -mod="KFMod20" -log=../Logs/KF_Server.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir</cmd>
+  <cmd>./%binary% server %map%?game=KFMod.KFGameType?GameStats=True?MaxPlayers=%slots% -mod="KFMod20" -log=../Logs/KF_Server.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir</cmd>
   <modcmds/>
   <tic/>
-  <gameq>killingfloor</gameq>
+  <gameq>ut2004</gameq>
   <gamemod>N</gamemod>
   <gamemod2/>
   <configs>KFMod20/System/KFMod20.ini</configs>
@@ -32,7 +32,7 @@
   <portFive/>
   <protected>N</protected>
   <ramLimited>N</ramLimited>
-  <ftpAccess>Y</ftpAccess>
+  <ftpAccess>N</ftpAccess>
   <workShop>N</workShop>
   <os>L</os>
   <downloadPath/>

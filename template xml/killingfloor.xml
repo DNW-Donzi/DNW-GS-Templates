@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<image>
+  <steamgame>S</steamgame>
+  <appID>215360</appID>
+  <updates>1</updates>
+  <shorten>killingfloor</shorten>
+  <description>Killingfloor Steam</description>
+  <type>gserver</type>
+  <gamebinary>ucc-bin</gamebinary>
+  <binarydir>System</binarydir>
+  <modfolder/>
+  <fps/>
+  <slots>0</slots>
+  <map>KF-bioticslab.rom</map>
+  <mapGroup/>
+  <cmd>./%binary% server %map%?game=KFmod.KFGameType?VACSecured=true?GameStats=True?MaxPlayers=%slots% -log=KF_Server.log -multihome=%ip% -port=%port% -queryport=%port3% -ListenPort=%port2% -nohomedir</cmd>
+  <modcmds/>
+  <tic/>
+  <gameq>ut2004</gameq>
+  <gamemod>N</gamemod>
+  <gamemod2/>
+  <configs>System/KillingFloor.ini</configs>
+  <configedit>[System/KillingFloor.ini] ini&#13;
+ListenPort=%port2%</configedit>
+  <iptables/>
+  <protectedSaveCFGs/>
+  <portStep>10</portStep>
+  <portMax>3</portMax>
+  <portOne>7707</portOne>
+  <portTwo>7708</portTwo>
+  <portThree>7717</portThree>
+  <portFour/>
+  <portFive/>
+  <protected>N</protected>
+  <ramLimited>N</ramLimited>
+  <ftpAccess>Y</ftpAccess>
+  <workShop>N</workShop>
+  <os>L</os>
+  <downloadPath/>
+</image>
