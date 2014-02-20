@@ -5,74 +5,76 @@
   <updates>1</updates>
   <shorten>ut2004</shorten>
   <description>UT2004</description>
-  <type/>
+  <type>gserver</type>
   <gamebinary>utserver.sh</gamebinary>
   <binarydir>System</binarydir>
   <modfolder/>
   <fps/>
-  <slots>12</slots>
+  <slots>0</slots>
   <map>DM-Rankin.ut2</map>
   <mapGroup/>
+  <workShop>N</workShop>
   <cmd>./%binary% server</cmd>
   <modcmds>[DM = default]&#13;
-%map%?Game=XGame.xDeathMatch?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=XGame.xDeathMatch?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [TDM]&#13;
-%map%?Game=XGame.xTeamGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=XGame.xTeamGame?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [CTF]&#13;
-%map%?Game=XGame.xCTFGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=XGame.xCTFGame?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [iCTF-Clan]&#13;
-%map%?Game=XGame.InstagibCTF?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=XGame.InstagibCTF?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [iCTF-Public]&#13;
-%map%?Game=XGame.xCTFGame?Mutator=XGame.MutInstaGib?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=XGame.xCTFGame?Mutator=XGame.MutInstaGib?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [TAM]&#13;
-%map%?Game=3spnv3141.TeamArenaMaster?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=3spnv3141.TeamArenaMaster?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [AM]&#13;
-%map%?Game=3spnv3141.ArenaMaster=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=3spnv3141.ArenaMaster=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [Freon]&#13;
-%map%?Game=3SPNv3141.Freon?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=3SPNv3141.Freon?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [ONS]&#13;
-%map%?Game=Onslaught.ONSOnslaughtGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=Onslaught.ONSOnslaughtGame?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [LMS]&#13;
-%map%?Game=BonusPack.xLastManStandingGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=BonusPack.xLastManStandingGame?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [DDOM]&#13;
-%map%?Game=XGame.xDoubleDom?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=XGame.xDoubleDom?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [BR]&#13;
-%map%?Game=XGame.xBombingRun?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=XGame.xBombingRun?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [vCTF]&#13;
-%map%?Game=XGame.xVehicleCTFGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=XGame.xVehicleCTFGame?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [Mutant]&#13;
-%map%?Game=BonusPack.xMutantGame?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=BonusPack.xMutantGame?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [SkaarjPack.Invasion]&#13;
-%map%?Game=SkaarjPack.Invasion?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=SkaarjPack.Invasion?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [AS]&#13;
-%map%?Game=UT2K4Assault.ASGameInfo?MaxPlayers=%slots% -ini=UT2004.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
+%map%?Game=UT2K4Assault.ASGameInfo?MaxPlayers=%slots% -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir&#13;
 &#13;
 [Jailbreak]&#13;
-%map%?Game=Jailbreak.Jailbreak?MaxPlayers=%slots% -ini=UT2004_JB.ini -log=UT2004_JB.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir</modcmds>
+%map%?Game=Jailbreak.Jailbreak?MaxPlayers=%slots% -ini=UT2004_JB.ini -log=UT2004.log -multihome=%ip% -port=%port% -queryport=%port3% -WebServerListenPort=%port2% -nohomedir</modcmds>
   <tic/>
   <gameq>ut2004</gameq>
+  <os>L</os>
+  <ftpAccess>Y</ftpAccess>
+  <ramLimited>N</ramLimited>
   <gamemod>N</gamemod>
   <gamemod2/>
-  <configs>System/UT2004.ini&#13;
-System/XAdmin.ini&#13;
+  <configs>System/XAdmin.ini&#13;
 ReadMe_WebAdmin_AdminPassword_ReDirect.txt</configs>
-  <configedit>[System/UT2004.ini] ini&#13;
-ListenPort=%port2%</configedit>
+  <configedit/>
   <iptables/>
   <protectedSaveCFGs/>
   <portStep>10</portStep>
@@ -83,9 +85,4 @@ ListenPort=%port2%</configedit>
   <portFour/>
   <portFive/>
   <protected>N</protected>
-  <ramLimited>N</ramLimited>
-  <ftpAccess>Y</ftpAccess>
-  <workShop>N</workShop>
-  <os>L</os>
-  <downloadPath/>
 </image>
