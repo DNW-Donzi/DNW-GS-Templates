@@ -25,7 +25,7 @@ DAYS2="5";
 
 
 #	Find old logs and remove them
-find -type f -name 'crash_*.log' -mtime +${DAYS1} -print | xargs /bin/rm -f;
+find -type f -name 'servercrash_*.log' -mtime +${DAYS1} -print | xargs /bin/rm -f;
 find -type f -name 'UnrealTournament_*.ini' -mtime +${DAYS2} -print | xargs /bin/rm -f;
 
 #	Copy the Server.log to the UT2004_old.log for better Fail-Reports and continuous restarts

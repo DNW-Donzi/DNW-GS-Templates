@@ -25,7 +25,7 @@ DAYS2="5";
 
 
 #	Find old logs and remove them
-find -type f -name 'crash_*.log' -mtime +${DAYS1} -print | xargs /bin/rm -f;
+find -type f -name 'UT2004crash_*.log' -mtime +${DAYS1} -print | xargs /bin/rm -f;
 find -type f -name 'UT2004_*.ini' -mtime +${DAYS2} -print | xargs /bin/rm -f;
 
 #	copy UT2004.ini for interna backup
